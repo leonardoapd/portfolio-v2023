@@ -1,0 +1,45 @@
+.section__title {
+  font-family: 'Flamenco', cursive; 
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  text-align: center;
+  text-shadow: -2px 2px 0 rgba(128, 128, 128, 0.108);
+}
+
+.section__subtitle {
+  font-family: 'Overpass Mono', monospace;
+  font-size: 1.5rem;
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: -2px 2px 0 rgba(128, 128, 128, 0.108);
+}
+
+.section__description {
+  font-family: 'Junge', serif;
+  font-size: 1rem;
+  color: var(--secondary-text);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+}
+
+.wave-0 {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  filter: blur(5px);
+}
+
+.wave-1 {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  filter: blur(5px);
+}

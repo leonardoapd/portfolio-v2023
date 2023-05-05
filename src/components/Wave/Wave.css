@@ -1,0 +1,10 @@
+/* .wave {
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .wave:nth-child(1) {
+    animation: wave 20s infinite linear;
+    z-index: 1;
+    opacity: 0.5;
+  } */

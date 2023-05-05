@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Damion&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&family=Press+Start+2P&display=swap");
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1.5rem;
+    background-color: rgba(255, 255, 255, 0.233);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    position: fixed;
+    z-index: 2;
+}
+
+.material-icons-outlined {
+    margin-right: 10px;
+    color: var(--primary-color);
+}
+
+.material-icons-outlined.md-36 {
+    font-size: 54px;
+}
+
+.navbar_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    font-family: "Hubballi", cursive;
+    font-family: "Press Start 2P", cursive;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.navbar_links {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar_links li {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.navbar_links li div {
+    width: 16px;
+    height: 4px;
+    background: transparent;
+    border-radius: 4px;
+    margin-bottom: 4px;
+}
+
+.navbar_links li a {
+    color: var(--secondary-text);
+    text-decoration: none;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar_links li a:hover {
+    color: var(--primary-color);
+}
+
+.navbar_links li:hover div {
+    background-color: var(--primary-color);
+}
+
+.navbar_social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.navbar_social a {
+    color: var(--primary-color);
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+.navbar_social a:first-of-type:hover {
+    color: blue;
+}
+
+.navbar_social a:nth-of-type(2):hover {
+    color: black;
+}
+
+.navbar_social a:nth-of-type(3):hover {
+    color: red;
+}
+
+@media screen and (max-width: 900px) {
+    .navbar_links {
+        display: none;
+    }
+}
+
+.navbar_menu {
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+}
+
+.navbar_menu svg {
+    width: 70%;
+    height: 70%;
+    color: var(--white-color);
+}
+
+.navbar_menu div {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+    padding: 1rem;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    /* background: url("../../assets/bgWhite.png"); */
+    background-color: var(--white-color);
+    background-size: cover;
+    background-repeat: repeat;
+    box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
+}
+
+.navbar_menu div svg {
+    width: 35px;
+    height: 35px;
+    color: var(--secondary-color);
+    margin: 0.5rem 1rem;
+}
+
+.navbar_menu div ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.navbar_menu div ul li {
+    margin: 1rem;
+}
+
+.navbar_menu div ul li a {
+    color: var(--gray-color);
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar_menu div ul li a:hover {
+    color: var(--secondary-color);
+}
+
+@media screen and (min-width: 900px) {
+    .navbar_menu div {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .navbar_menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .logo {
+        width: 60px;
+        font-size: 0.7em;
+    }
+
+    .material-icons-outlined .md-36 {
+        font-size: 32px;
+    }
+}
+
+
+@media (prefers-color-scheme: dark) {
+    .navbar_links li a {
+        color: var(--light-primary-color);
+    }
+}

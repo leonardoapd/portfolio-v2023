@@ -1,0 +1,46 @@
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    /* Calculate the screen width and stablish the margin */
+    margin: 0 calc(15.5vw + 32px);
+}
+
+.about-container .about-name {
+    font-size: 5rem;
+}
+
+.about-description {
+    font-family: 'Junge', serif;
+    font-size: 1rem;
+    color: var(--primary-text);
+    /* margin-bottom: 1rem; */
+    text-align: center;
+}
+
+@media screen and (orientation: landscape) {
+    .about-container {
+        margin: calc(.5vw + 32px) 0;
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .about-description {
+        margin: 0 calc(15.5vw + 32px);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .about-description {
+        color: var(--light-primary-color);
+    }
+}
