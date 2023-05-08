@@ -61,7 +61,19 @@
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: var(--light-color);
+    background-color: var(--light-primary-color);
   }
+
+}
+
+body {
+  /* Dotted background */
+  background-image: radial-gradient(rgba(12, 12, 12, 0.08) 1px, transparent 1px), radial-gradient(rgba(12, 12, 12, 0.08) 1px, transparent 1px);
+  background-position: 0 0, 12px 12px;
+  background-size: 24px 24px;
+  /* background-color: var(--dark-primary-color); */
+  background-attachment: fixed;
+  background-repeat: repeat;
+  /* background-color: var(--dark-primary-color); */
 
 }
