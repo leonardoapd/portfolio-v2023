@@ -9,14 +9,14 @@ export default function AppWrapper(Component, idName, classNames) {
 
         return (
             <>
-                <div className={`container container-${classNames}`}>
+                <section className={`container container-${classNames}`} aria-label={idName}>
                     <Wave {...waves[0]} id={0} />
-                    <section id={idName} className={`${classNames}`}>
+                    <article id={idName} className={`${classNames}`}>
                         <Component {...props} />
-                    </section>
+                    </article>
                     <Wave {...waves[1]} id={1} />
                     <NavigationDots active={idName} />
-                </div>
+                </section>
             </>
         );
     }
