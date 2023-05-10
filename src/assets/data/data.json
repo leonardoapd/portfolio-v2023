@@ -17,7 +17,7 @@
     {
       "name": "Canada Provinces App",
       "description": "A simple app made with HTML, CSS and Vanilla Javascript that consumes a JSON file and displays the information of the provinces of Canada. The app also allows the user to search for a specific province.",
-      "image": "src/assets/images/projects/canada-provinces-app.png",
+      "image": "../images/projects/canada-provinces-app.png",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "url": "http://perdomod.dev.fast.sheridanc.on.ca/web_applications/assignment_2/pages/",
       "github": "https://github.com/leonardoapd/"
@@ -25,7 +25,7 @@
     {
       "name": "My Todo App",
       "description": "A todo app made with React as the frontend and Java with Spring Boot as the backend using a MySQL database to store the data and a REST API to communicate between the frontend and the backend. The frontend is deployed on Netlify and the backend is deployed on Azure with Docker containers.",
-      "image": "src/assets/images/projects/my-todo-app.png",
+      "image": "../images/projects/my-todo-app.png",
       "technologies": ["React", "JavaScript", "HTML", "CSS", "Java", "Spring Boot", "MySQL", "Azure", "Docker", "Netlify"],
       "url": "https://my-todo-app-frontend.netlify.app/",
       "github": "https://github.com/leonardoapd/todo-app-frontend"
@@ -33,7 +33,7 @@
     {
       "name": "Security with Spring Boot",
       "description": "A Spring Boot application that uses Spring Security to authenticate users with a H2 database. The app is deployed on Azure with Docker containers.",
-      "image": "src/assets/images/projects/security-with-spring-boot.png",
+      "image": "../images/projects/security-with-spring-boot.png",
       "technologies": ["Java", "Spring Boot", "Spring Security", "Thymeleaf", "Javascript", "H2", "Azure", "Docker"],
       "url": "https://security-with-database.azurewebsites.net/",
       "github": "https://github.com/leonardoapd/security-with-database"
@@ -41,7 +41,7 @@
     {
       "name": "Smart Vehicle App",
       "description": "Angular App that consume a REST API made with Loopback 4 and a MongoDB database. The app allows the user to create, read, update and delete vehicles. The app is deployed on Firebase and the backend is deployed on Azure.",
-      "image": "src/assets/images/projects/smart-vehicle-app.png",
+      "image": "../images/projects/smart-vehicle-app.png",
       "technologies": ["Angular", "TypeScript", "HTML", "CSS", "Bootstrap", "Loopback 4", "MongoDB", "Azure", "Firebase"],
       "url": "https://smartvehicle-9fd68.web.app/",
       "github": "https://github.com/wtrianav/SmartVehicleApp"
@@ -49,7 +49,7 @@
     {
       "name": "Movie Ticket Form",
       "description": "A form made with HTML, CSS and Vanilla Javascript that allows the user to select a movie, the number of tickets and the showtime. The form also calculates the total price of the tickets and stores the data in the local storage.",
-      "image": "src/assets/images/projects/movie-ticket-form.png",
+      "image": "../images/projects/movie-ticket-form.png",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "url": "http://perdomod.dev.fast.sheridanc.on.ca/web_applications/assignment_1/pages/",
       "github": "https://github.com/leonardoapd/"
@@ -72,80 +72,80 @@
       "name": "Wilder Mancera",
       "company": "Aloe Software S.R.L",
       "comment": "Leonardo is a very responsible and dedicated person. He is a great team player and he is always willing to help others. He is a very good developer and he is always looking for ways to improve his skills.",
-      "image": "src/assets/images/testimonials/wilder-mancera.jpg"
+      "image": "../images/testimonials/wilder-mancera.jpg"
     },
     {
       "name": "Wilmer Triana",
       "company": "Segunda Oportunidad",
       "comment": "Leonardo is an excellent professional, he is technically very commited and has a great attitude towards work. He is a great team player and very good at solving problems.",
-      "image": "src/assets/images/testimonials/wilmer-triana.jpg"
+      "image": "../images/testimonials/wilmer-triana.jpg"
     },
     {
       "name": "Marco Bedon",
       "company": "Colegio Jefferson",
       "comment": "He is an brilliant, imaginative and very creative developer who is interested in sharing his knowledge with others. His talent and passion for technology are evident in his work.",
-      "image": "src/assets/images/testimonials/marco-bedon.jpg"
+      "image": "../images/testimonials/marco-bedon.jpg"
     },
     {
       "name": "Alexandra Vargas",
       "company": "Keralty",
       "comment": "I worked with Leonardo in a Angular project for 4 months and he has been an excellent developer. He is very knowledgeable and has great communication skills which makes him an asset to any team.",
-      "image": "src/assets/images/testimonials/alexandra-vargas.jpg"
+      "image": "../images/testimonials/alexandra-vargas.jpg"
     }
   ],
   "skills": [
     {
       "name": "HTML",
-      "image": "src/assets/images/skills/html.png"
+      "image": "../images/skills/html.png"
     },
     {
       "name": "CSS",
-      "image": "src/assets/images/skills/css.png"
+      "image": "../images/skills/css.png"
     },
     {
       "name": "JavaScript",
-      "image": "src/assets/images/skills/javascript.png"
+      "image": "../images/skills/javascript.png"
     },
     {
       "name": "React",
-      "image": "src/assets/images/skills/react_logo.png"
+      "image": "../images/skills/react_logo.png"
     },
     {
       "name": "MongoDB",
-      "image": "src/assets/images/skills/mongodb.png"
+      "image": "../images/skills/mongodb.png"
     },
     {
       "name": "MySQL",
-      "image": "src/assets/images/skills/mysql.png"
+      "image": "../images/skills/mysql.png"
     },
     {
       "name": "Git",
-      "image": "src/assets/images/skills/git.png"
+      "image": "../images/skills/git.png"
     },
     {
       "name": "Postman",
-      "image": "src/assets/images/skills/postman.png"
+      "image": "../images/skills/postman.png"
     },
     {
       "name": "Sass",
-      "image": "src/assets/images/skills/sass.png"
+      "image": "../images/skills/sass.png"
     },
     {
       "name": ".Net Framework",
-      "image": "src/assets/images/skills/dotnet.png"
+      "image": "../images/skills/dotnet.png"
     },
     {
       "name": "C#",
-      "image": "src/assets/images/skills/csharp.png"
+      "image": "../images/skills/csharp.png"
     },
     {
       "name": "Java",
-      "image": "src/assets/images/skills/java.png"
+      "image": "../images/skills/java.png"
     }
   ],
   "icons": {
-    "minimize": "src/assets/images/icons/minimize.png",
-    "maximize": "src/assets/images/icons/maximize.png",
-    "close": "src/assets/images/icons/close.png"
+    "minimize": "../images/icons/minimize.png",
+    "maximize": "../images/icons/maximize.png",
+    "close": "../images/icons/close.png"
   }
 }
