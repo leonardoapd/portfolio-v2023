@@ -120,8 +120,8 @@
         color: var(--light-primary-color);
     }
 
-    .testimonial_content {
+    .testimonial_container {
         border-color: var(--light-primary-color);
-        box-shadow: -8px 8px 0 var(--light-color);
+        box-shadow: -4px 4px 0 rgba(255, 255, 255, 0.403);
     }
 }

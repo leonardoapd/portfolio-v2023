@@ -13,10 +13,10 @@
 }
 
 .app__navigation-dot {
-    width: 10px;
-    height: 10px;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
-    background-color: gray;
+    background: rgba(0, 0, 0, 0.2);
     margin: 0.5rem;
 
     transition: background-color 0.2s ease-in-out;

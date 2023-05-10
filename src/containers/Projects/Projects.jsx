@@ -12,6 +12,13 @@ function Projects() {
 
     const projects = ProjectsInformation.projects;
 
+    const pagination = {
+        clickable: true,
+        renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + (index + 1) + "</span>";
+        },
+    };
+
     return (
         <>
             <header>
@@ -21,9 +28,8 @@ function Projects() {
             <Swiper
                 grabCursor={true}
                 spaceBetween={30}
-                pagination={{
-                    clickable: true,
-                }}
+
+                pagination={pagination}
                 modules={[Pagination]}
                 className="project_container"
             >

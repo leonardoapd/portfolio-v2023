@@ -56,7 +56,7 @@
   box-shadow: -4px 4px 0 var(--color-navy-600);
 }
 
-.swiper{
+.swiper {
   padding: 48px 16px !important;
 }
 
@@ -116,16 +116,41 @@
   background-color: var(--accent-color);
 }
 
+
+.swiper-pagination-bullet {
+  width: 16px !important;
+  height: 16px !important;
+  font-family: "Overpass Mono", sans-serif;
+  text-align: center;
+  line-height: 18px;
+  font-size: 10px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: var(--primary-color) !important;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: var(--swiper-pagination-bottom, 0px);
+}
+
 @media screen and (min-width: 900px) {
   .projects {
     padding: 0 calc(10vw + 32px);
   }
 
   .project_container {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
   .project_content {
     flex-direction: row;
