@@ -15,6 +15,14 @@
   ],
   "projects": [
     {
+      "name": "Image Uploader Master",
+      "description": "This project showcases my skills in developing a fullstack application using React, .NET Web API, and Firebase for image storage. With this app, users can easily upload and manage their images.",
+      "image": "../images/projects/image-uploader-page.png",
+      "technologies": ["React", "JavaScript", "HTML", "CSS", ".NET", "C#", "Firebase"],
+      "url": "https://image-uploader-page.netlify.app/",
+      "github": "https://github.com/leonardoapd/image-uploader-master"
+    },
+    {
       "name": "Canada Provinces App",
       "description": "A simple app made with HTML, CSS and Vanilla Javascript that consumes a JSON file and displays the information of the provinces of Canada. The app also allows the user to search for a specific province.",
       "image": "../images/projects/canada-provinces-app.png",
