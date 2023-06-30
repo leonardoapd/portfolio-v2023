@@ -2,22 +2,10 @@
 import ProjectsInformation from '../../assets/data/data.json';
 import './Projects.css';
 import AppWrapper from '../../wrapper/AppWrapper';
-// Dependencies for Swiper component
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import { Pagination } from "swiper";
 
 function Projects() {
 
     const projects = ProjectsInformation.projects;
-
-    const pagination = {
-        clickable: true,
-        renderBullet: function (index, className) {
-            return '<span class="' + className + '">' + (index + 1) + "</span>";
-        },
-    };
 
     return (
         <>
@@ -25,54 +13,36 @@ function Projects() {
                 <h1 className="section__title">Projects</h1>
             </header>
 
-            <Swiper
-                grabCursor={true}
-                spaceBetween={30}
-
-                pagination={pagination}
-                modules={[Pagination]}
-                className="project_container"
-            >
+            <section className="projects_container" aria-label="projects">
                 {
                     projects.map((project, index) => (
-                        <SwiperSlide key={index}>
-                            <h3 className="project_title">{project.name}</h3>
-                            <article className="project_content">
-                                <img
-                                    src={project.image}
-                                    alt=""
-                                    className="projects_img"
-                                >
-                                </img>
-                                <section className="project_data" aria-label="Project Data">
-                                    <p className="project_description">{project.description}</p>
-                                    <div className="project_buttons">
-                                        <button
-                                            className="project_button project_button__code"
-                                            onClick={() => { window.open(project.github, '_blank') }}
-                                            onTouchStart={() => { window.open(project.github, '_blank') }}
-                                        >
-                                            View Code
-                                            <i className="material-icons-outlined">
-                                                code
-                                            </i>
-                                        </button>
-                                        <button
-                                            className="project_button project_button__view"
-                                            onClick={() => { window.open(project.url, '_blank') }}
-                                            onTouchStart={() => { window.open(project.url, '_blank') }}
-                                        >
-                                            Launch Project
-                                            <i className="material-icons-outlined">
-                                                rocket_launch
-                                            </i>
-                                        </button>
-                                    </div>
-                                </section>
-                            </article>
-                        </SwiperSlide>
+                        <article className="card shadow" key={index}>
+                            <img src={project.image} alt="" className="card-img" />
+                            <div className="card-content">
+                                <h2 className="card-title">{project.name}</h2>
+                                <p className="card-description">{project.description}</p>
+                            </div>
+                            <div className="card-footer project-links">
+                                {project.github !== "" ?
+                                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link code-link" aria-label='view code'>
+                                        <span>View Code</span>
+                                        <span className="material-icons-outlined link-icon">
+                                            code
+                                        </span>
+                                    </a>
+                                    : null}
+                                {project.url !== "" ?
+                                    <a href={project.url} target="_blank" rel="noopener noreferrer" className="project-link launch-link" aria-label='launch demo'>
+                                        <span>Launch Demo</span>
+                                        <span className="material-icons-outlined link-icon">
+                                            rocket_launch
+                                        </span>
+                                    </a>
+                                    : null}
+                            </div>
+                        </article>
                     ))}
-            </Swiper >
+            </section>
         </>
     );
 }

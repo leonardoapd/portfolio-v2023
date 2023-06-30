@@ -4,19 +4,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap');
 
 :root {
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --light-color: #FFF0E5;
-  --dark-color: #090A1D;
+  --light-color: #F0F0F0;
+  --dark-color: #242424;
   --black-shadow-color: rgba(0, 0, 0, 0.089);
   --red-shadow-color: rgba(255, 0, 0, 0.089);
   --yellow-shadow-color: rgba(255, 255, 0, 0.089);
@@ -34,15 +29,6 @@
   --secondary-text: #8D99A6;
   --divider-color: #E4E7EB;
 
-  --color-navy-100: rgba(16,22,47,0.04);
-  --color-navy-200: rgba(16,22,47,0.12);
-  --color-navy-300: rgba(16,22,47,0.28);
-  --color-navy-400: rgba(16,22,47,0.45);
-  --color-navy-500: rgba(16,22,47,0.63);
-  --color-navy-600: rgba(16,22,47,0.75);
-  --color-navy-700: rgba(16,22,47,0.86);
-  --color-navy-800: #10162F;
-  --color-navy-900: #0A0D1C;
 }
 
 * {
@@ -57,24 +43,22 @@
   display: flex;
   flex-direction: column;
 }
-
-@media (prefers-color-scheme: light) {
+/* 
+@media (prefers-color-scheme: dark) {
   :root {
-    color: #213547;
-    background-color: var(--light-primary-color);
+    color-scheme: dark;
   }
 
   body {
     background-image: radial-gradient(rgba(12, 12, 12, 0.08) 1px, transparent 1px), radial-gradient(rgba(12, 12, 12, 0.08) 1px, transparent 1px) !important;
   }
-
 }
 
 body {
-  /* Dotted background */
+  
   background-image: radial-gradient(rgba(247, 244, 244, 0.08) 1px, transparent 1px), radial-gradient(rgba(247, 244, 244, 0.08) 1px, transparent 1px);
   background-position: 0 0, 12px 12px;
   background-size: 24px 24px;
   background-attachment: fixed;
   background-repeat: repeat;
-}
+} */

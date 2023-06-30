@@ -1,8 +1,10 @@
 import './Navbar.css';
 import { BsLinkedin, BsGithub, BsFillEnvelopeAtFill } from 'react-icons/bs';
 import LinksInformation from '../../assets/data/data.json';
+import Switch from '../Switch/Switch';
 
-export default function Navbar() {
+export default function Navbar({ toggleTheme, theme }) {
+    
     const localLinks = ['About', 'Projects', 'Skills', 'Testimonials'];
 
     // Links for linkedin, github, and email
@@ -41,9 +43,13 @@ export default function Navbar() {
             <div className="navbar_social">
                 {links.map((link, index) => (
                     <a key={index} href={link.url} target="_blank" rel="noopener noreferrer">
-                        <link.icon/>
+                        <link.icon />
                     </a>
                 ))}
+                <Switch
+                    theme={theme}
+                    handleToggle={toggleTheme}
+                />
             </div>
         </nav>
     );

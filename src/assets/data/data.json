@@ -16,51 +16,89 @@
   "projects": [
     {
       "name": "Image Uploader Master",
-      "description": "This project showcases my skills in developing a fullstack application using React, .NET Web API, and Firebase for image storage. With this app, users can easily upload and manage their images.",
+      "description": "This project showcases my skills in developing a full-stack application using React, .NET Framework, and Firebase Storage. With this app, users can easily upload and manage their images.",
       "image": "../images/projects/image-uploader-page.png",
-      "technologies": ["React", "JavaScript", "HTML", "CSS", ".NET", "C#", "Firebase"],
+      "technologies": [
+        "React",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        ".NET",
+        "C#",
+        "Firebase"
+      ],
       "url": "https://image-uploader-page.netlify.app/",
       "github": "https://github.com/leonardoapd/image-uploader-master"
     },
     {
       "name": "Canada Provinces App",
-      "description": "A simple app made with HTML, CSS and Vanilla Javascript that consumes a JSON file and displays the information of the provinces of Canada. The app also allows the user to search for a specific province.",
+      "description": "A simple app made with HTML, CSS, and Vanilla JavaScript that consumes a JSON file. This app displays information about the provinces of Canada. It also allows the user to search for information of a specific province, city or college.",
       "image": "../images/projects/canada-provinces-app.png",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "url": "http://perdomod.dev.fast.sheridanc.on.ca/web_applications/assignment_2/pages/",
-      "github": "https://github.com/leonardoapd/"
+      "github": ""
     },
     {
       "name": "My Todo App",
-      "description": "A todo app made with React as the frontend and Java with Spring Boot as the backend using a MySQL database to store the data and a REST API to communicate between the frontend and the backend. The frontend is deployed on Netlify and the backend is deployed on Azure with Docker containers.",
+      "description": "A todo app made with React as the frontend and Java with Spring Boot as the backend. It uses a MySQL database to store the data and a REST API to communicate between the frontend and the backend. The frontend is deployed on Netlify, and the backend is deployed on Azure with Docker containers.",
       "image": "../images/projects/my-todo-app.png",
-      "technologies": ["React", "JavaScript", "HTML", "CSS", "Java", "Spring Boot", "MySQL", "Azure", "Docker", "Netlify"],
+      "technologies": [
+        "React",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "Azure",
+        "Docker",
+        "Netlify"
+      ],
       "url": "https://my-todo-app-frontend.netlify.app/",
       "github": "https://github.com/leonardoapd/todo-app-frontend"
     },
     {
       "name": "Security with Spring Boot",
-      "description": "A Spring Boot application that uses Spring Security to authenticate users with a H2 database. The app is deployed on Azure with Docker containers.",
+      "description": "A Spring Boot application that uses Spring Security to authenticate users with an H2 database. The app is deployed on Azure with Docker containers.",
       "image": "../images/projects/security-with-spring-boot.png",
-      "technologies": ["Java", "Spring Boot", "Spring Security", "Thymeleaf", "Javascript", "H2", "Azure", "Docker"],
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "Thymeleaf",
+        "JavaScript",
+        "H2",
+        "Azure",
+        "Docker"
+      ],
       "url": "https://security-with-database.azurewebsites.net/",
       "github": "https://github.com/leonardoapd/security-with-database"
     },
     {
       "name": "Smart Vehicle App",
-      "description": "Angular App that consume a REST API made with Loopback 4 and a MongoDB database. The app allows the user to create, read, update and delete vehicles. The app is deployed on Firebase and the backend is deployed on Azure.",
+      "description": "An Angular app that consumes a REST API made with Loopback 4 and a MongoDB database. The app allows the user to create, read, update, and delete vehicles. The app is deployed on Firebase, and the backend is deployed on Azure.",
       "image": "../images/projects/smart-vehicle-app.png",
-      "technologies": ["Angular", "TypeScript", "HTML", "CSS", "Bootstrap", "Loopback 4", "MongoDB", "Azure", "Firebase"],
+      "technologies": [
+        "Angular",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Loopback 4",
+        "MongoDB",
+        "Azure",
+        "Firebase"
+      ],
       "url": "https://smartvehicle-9fd68.web.app/",
       "github": "https://github.com/wtrianav/SmartVehicleApp"
     },
     {
       "name": "Movie Ticket Form",
-      "description": "A form made with HTML, CSS and Vanilla Javascript that allows the user to select a movie, the number of tickets and the showtime. The form also calculates the total price of the tickets and stores the data in the local storage.",
+      "description": "A form made with HTML, CSS, and Vanilla JavaScript that allows the user to select a movie, the number of tickets, and the showtime. The form also calculates the total price of the tickets and stores the data in the local storage.",
       "image": "../images/projects/movie-ticket-form.png",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "url": "http://perdomod.dev.fast.sheridanc.on.ca/web_applications/assignment_1/pages/",
-      "github": "https://github.com/leonardoapd/"
+      "github": ""
     }
   ],
   "waves": [
@@ -75,82 +113,98 @@
       "d": "M0,32L16,32C32,32,64,32,96,53.3C128,75,160,117,192,160C224,203,256,245,288,229.3C320,213,352,139,384,101.3C416,64,448,64,480,74.7C512,85,544,107,576,117.3C608,128,640,128,672,133.3C704,139,736,149,768,154.7C800,160,832,160,864,176C896,192,928,224,960,234.7C992,245,1024,235,1056,213.3C1088,192,1120,160,1152,144C1184,128,1216,128,1248,128C1280,128,1312,128,1344,133.3C1376,139,1408,149,1424,154.7L1440,160L1440,320L1424,320C1408,320,1376,320,1344,320C1312,320,1280,320,1248,320C1216,320,1184,320,1152,320C1120,320,1088,320,1056,320C1024,320,992,320,960,320C928,320,896,320,864,320C832,320,800,320,768,320C736,320,704,320,672,320C640,320,608,320,576,320C544,320,512,320,480,320C448,320,416,320,384,320C352,320,320,320,288,320C256,320,224,320,192,320C160,320,128,320,96,320C64,320,32,320,16,320L0,320Z"
     }
   ],
-  "testimonials" : [
+  "testimonials": [
     {
       "name": "Wilder Mancera",
       "company": "Aloe Software S.R.L",
-      "comment": "Leonardo is a very responsible and dedicated person. He is a great team player and he is always willing to help others. He is a very good developer and he is always looking for ways to improve his skills.",
+      "comment": "Leonardo is a very responsible and dedicated person. He is a great team player and is always willing to help others. Leonardo is a skilled developer who continuously seeks ways to improve his skills.",
       "image": "../images/testimonials/wilder-mancera.jpg"
     },
     {
       "name": "Wilmer Triana",
       "company": "Segunda Oportunidad",
-      "comment": "Leonardo is an excellent professional, he is technically very commited and has a great attitude towards work. He is a great team player and very good at solving problems.",
+      "comment": "Leonardo is an excellent professional. He is technically committed and has a great attitude towards work. Leonardo is a team player and excels in problem-solving.",
       "image": "../images/testimonials/wilmer-triana.jpg"
     },
     {
       "name": "Marco Bedon",
       "company": "Colegio Jefferson",
-      "comment": "He is an brilliant, imaginative and very creative developer who is interested in sharing his knowledge with others. His talent and passion for technology are evident in his work.",
+      "comment": "Leonardo is a brilliant, imaginative, and highly creative developer who actively shares his knowledge with others. His talent and passion for technology are evident in his work.",
       "image": "../images/testimonials/marco-bedon.jpg"
     },
     {
       "name": "Alexandra Vargas",
       "company": "Keralty",
-      "comment": "I worked with Leonardo in a Angular project for 4 months and he has been an excellent developer. He is very knowledgeable and has great communication skills which makes him an asset to any team.",
+      "comment": "I worked with Leonardo on an Angular project for 4 months, and he proved to be an excellent developer. Leonardo possesses extensive knowledge and excellent communication skills, making him a valuable asset to any team.",
       "image": "../images/testimonials/alexandra-vargas.jpg"
     }
   ],
-  "skills": [
-    {
-      "name": "HTML",
-      "image": "../images/skills/html.png"
-    },
-    {
-      "name": "CSS",
-      "image": "../images/skills/css.png"
-    },
-    {
-      "name": "JavaScript",
-      "image": "../images/skills/javascript.png"
-    },
-    {
-      "name": "React",
-      "image": "../images/skills/react_logo.png"
-    },
-    {
-      "name": "MongoDB",
-      "image": "../images/skills/mongodb.png"
-    },
-    {
-      "name": "MySQL",
-      "image": "../images/skills/mysql.png"
-    },
-    {
-      "name": "Git",
-      "image": "../images/skills/git.png"
-    },
-    {
-      "name": "Postman",
-      "image": "../images/skills/postman.png"
-    },
-    {
-      "name": "Sass",
-      "image": "../images/skills/sass.png"
-    },
-    {
-      "name": ".Net Framework",
-      "image": "../images/skills/dotnet.png"
-    },
-    {
-      "name": "C#",
-      "image": "../images/skills/csharp.png"
-    },
-    {
-      "name": "Java",
-      "image": "../images/skills/java.png"
-    }
-  ],
+  "skills": {
+    "Frontend": [
+      {
+        "name": "HTML",
+        "image": "../images/skills/html.png"
+      },
+      {
+        "name": "CSS",
+        "image": "../images/skills/css.png"
+      },
+      {
+        "name": "JavaScript",
+        "image": "../images/skills/javascript.png"
+      },
+      {
+        "name": "React",
+        "image": "../images/skills/react_logo.png"
+      },
+      {
+        "name": "Sass",
+        "image": "../images/skills/sass.png"
+      }
+    ],
+    "Backend": [
+      {
+        "name": ".NET",
+        "image": "../images/skills/dotnet.png"
+      },
+      {
+        "name": "C#",
+        "image": "../images/skills/csharp.png"
+      },
+      {
+        "name": "Java",
+        "image": "../images/skills/java.png"
+      },
+      {
+        "name": "Spring Boot",
+        "image": "../images/skills/spring-boot.png"
+      }
+    ],
+    "Database": [
+      {
+        "name": "MongoDB",
+        "image": "../images/skills/mongodb.png"
+      },
+      {
+        "name": "MySQL",
+        "image": "../images/skills/mysql.png"
+      },
+      {
+        "name": "SQL Server",
+        "image": "../images/skills/sqlserver.png"
+      }
+    ],
+    "Tools": [
+      {
+        "name": "Git",
+        "image": "../images/skills/git.png"
+      },
+      {
+        "name": "Postman",
+        "image": "../images/skills/postman.png"
+      }
+    ]
+  },
   "icons": {
     "minimize": "../images/icons/minimize.png",
     "maximize": "../images/icons/maximize.png",
