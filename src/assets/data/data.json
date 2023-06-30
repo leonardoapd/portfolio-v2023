@@ -32,7 +32,7 @@
     },
     {
       "name": "Canada Provinces App",
-      "description": "A simple app made with HTML, CSS, and Vanilla JavaScript that consumes a JSON file and displays information about the provinces of Canada. The app also allows the user to search for a specific province.",
+      "description": "A simple app made with HTML, CSS, and Vanilla JavaScript that consumes a JSON file. This app displays information about the provinces of Canada. It also allows the user to search for information of a specific province, city or college.",
       "image": "../images/projects/canada-provinces-app.png",
       "technologies": ["HTML", "CSS", "JavaScript"],
       "url": "http://perdomod.dev.fast.sheridanc.on.ca/web_applications/assignment_2/pages/",

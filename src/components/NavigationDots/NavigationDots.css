@@ -14,15 +14,15 @@
 }
 
 .app__navigation-dot {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, 0.2);
+    /* background: rgba(0, 0, 0, 0.2); */
     margin: 0.5rem;
 
     transition: background-color 0.2s ease-in-out;
 }
 
 .app__navigation-dot:hover{
-    background-color: var(--accent-color);
+    background-color: var(--accent-color) !important;
 }
