@@ -1,7 +1,8 @@
 .app__navigation {
-    position: absolute;
+    position: fixed;
+    float: left;
     /* Positioning the element on the rigth center side */
-    top: 50%;
+    top: 50vh;
     right: 0;
     display: flex;
     justify-content: center;
@@ -13,8 +14,8 @@
 }
 
 .app__navigation-dot {
-    width: 16px;
-    height: 16px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     background: rgba(0, 0, 0, 0.2);
     margin: 0.5rem;

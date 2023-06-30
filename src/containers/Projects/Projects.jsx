@@ -24,7 +24,7 @@ function Projects() {
                             </div>
                             <div className="card-footer project-links">
                                 {project.github !== "" ?
-                                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="project_link code-link" aria-label='view code'>
+                                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-link code-link" aria-label='view code'>
                                         <span>View Code</span>
                                         <span className="material-icons-outlined link-icon">
                                             code
@@ -32,7 +32,7 @@ function Projects() {
                                     </a>
                                     : null}
                                 {project.url !== "" ?
-                                    <a href={project.url} target="_blank" rel="noopener noreferrer" className="project_link launch-link" aria-label='launch demo'>
+                                    <a href={project.url} target="_blank" rel="noopener noreferrer" className="project-link launch-link" aria-label='launch demo'>
                                         <span>Launch Demo</span>
                                         <span className="material-icons-outlined link-icon">
                                             rocket_launch

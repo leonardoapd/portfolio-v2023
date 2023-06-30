@@ -139,56 +139,72 @@
       "image": "../images/testimonials/alexandra-vargas.jpg"
     }
   ],
-  "skills": [
-    {
-      "name": "HTML",
-      "image": "../images/skills/html.png"
-    },
-    {
-      "name": "CSS",
-      "image": "../images/skills/css.png"
-    },
-    {
-      "name": "JavaScript",
-      "image": "../images/skills/javascript.png"
-    },
-    {
-      "name": "React",
-      "image": "../images/skills/react_logo.png"
-    },
-    {
-      "name": "MongoDB",
-      "image": "../images/skills/mongodb.png"
-    },
-    {
-      "name": "MySQL",
-      "image": "../images/skills/mysql.png"
-    },
-    {
-      "name": "Git",
-      "image": "../images/skills/git.png"
-    },
-    {
-      "name": "Postman",
-      "image": "../images/skills/postman.png"
-    },
-    {
-      "name": "Sass",
-      "image": "../images/skills/sass.png"
-    },
-    {
-      "name": ".Net Framework",
-      "image": "../images/skills/dotnet.png"
-    },
-    {
-      "name": "C#",
-      "image": "../images/skills/csharp.png"
-    },
-    {
-      "name": "Java",
-      "image": "../images/skills/java.png"
-    }
-  ],
+  "skills": {
+    "Frontend": [
+      {
+        "name": "HTML",
+        "image": "../images/skills/html.png"
+      },
+      {
+        "name": "CSS",
+        "image": "../images/skills/css.png"
+      },
+      {
+        "name": "JavaScript",
+        "image": "../images/skills/javascript.png"
+      },
+      {
+        "name": "React",
+        "image": "../images/skills/react_logo.png"
+      },
+      {
+        "name": "Sass",
+        "image": "../images/skills/sass.png"
+      }
+    ],
+    "Backend": [
+      {
+        "name": ".NET",
+        "image": "../images/skills/dotnet.png"
+      },
+      {
+        "name": "C#",
+        "image": "../images/skills/csharp.png"
+      },
+      {
+        "name": "Java",
+        "image": "../images/skills/java.png"
+      },
+      {
+        "name": "Spring Boot",
+        "image": "../images/skills/spring-boot.png"
+      }
+    ],
+    "Database": [
+      {
+        "name": "MongoDB",
+        "image": "../images/skills/mongodb.png"
+      },
+      {
+        "name": "MySQL",
+        "image": "../images/skills/mysql.png"
+      },
+      {
+        "name": "SQL Server",
+        "image": "../images/skills/sqlserver.png"
+      }
+    ],
+    "Tools": [
+      {
+        "name": "Git",
+        "image": "../images/skills/git.png"
+      },
+      {
+        "name": "Postman",
+        "image": "../images/skills/postman.png"
+      }
+    ]
+  },
   "icons": {
     "minimize": "../images/icons/minimize.png",
     "maximize": "../images/icons/maximize.png",
