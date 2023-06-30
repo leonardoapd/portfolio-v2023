@@ -15,7 +15,7 @@ function Testimonials() {
             <section className="testimonials_container" aria-label="Testimonials">
                 {
                     testimonials.map((testimonial, index) => (
-                        <article className="testimonial_container" key={index}>
+                        <article className="testimonial_container shadow" key={index}>
                             <h3 className="testimonial_name">{testimonial.name}</h3>
                             <section className="testimonial_content" aria-label="Testimonial Content">
                                 <img align="left" src={testimonial.image} alt="" className="testimonial_img"></img>

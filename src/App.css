@@ -85,3 +85,41 @@
 
   border-radius: 12px 12px 4px 4px;
 }
+
+.light-theme {
+  /* Dotted background */
+  background-image: radial-gradient(rgba(15, 15, 15, 0.08) 1px, transparent 1px), radial-gradient(rgba(15, 15, 15, 0.08) 1px, transparent 1px);
+  background-position: 0 0, 12px 12px;
+  background-size: 24px 24px;
+  background-attachment: fixed;
+  background-repeat: repeat;
+
+
+  background-color: var(--light-color);
+  color: var(--primary-text);
+}
+
+.light-theme .shadow {
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+}
+
+
+
+/* Dark theme */
+.dark-theme {
+  /* Dotted background */
+  background-image: radial-gradient(rgba(146, 144, 144, 0.08) 1px, transparent 1px), radial-gradient(rgba(146, 144, 144, 0.08) 1px, transparent 1px);
+  background-position: 0 0, 12px 12px;
+  background-size: 24px 24px;
+  background-attachment: fixed;
+  background-repeat: repeat;
+
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+.dark-theme .shadow {
+  /* box-shadow: 0 0 10px rgba(243, 242, 242, 0.911); */
+  filter: drop-shadow(2px 4px 6px rgba(243, 242, 242, 0.26));
+}

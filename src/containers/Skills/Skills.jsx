@@ -23,7 +23,7 @@ function Skills() {
                                 {
                                     skillList.map((skill, index) => (
                                         <figure className="skill__figure_container" key={index}>
-                                            <img src={skill.image} alt="" className="skill_img" />
+                                            <img src={skill.image} alt="" className="skill_img shadow" />
                                             <figcaption className="skill_description">{skill.name}</figcaption>
                                         </figure>
                                     ))

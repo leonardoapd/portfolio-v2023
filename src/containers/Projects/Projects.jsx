@@ -16,7 +16,7 @@ function Projects() {
             <section className="projects_container" aria-label="projects">
                 {
                     projects.map((project, index) => (
-                        <article className="card" key={index}>
+                        <article className="card shadow" key={index}>
                             <img src={project.image} alt="" className="card-img" />
                             <div className="card-content">
                                 <h2 className="card-title">{project.name}</h2>

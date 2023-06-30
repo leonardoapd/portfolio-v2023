@@ -13,7 +13,6 @@
     object-fit: contain;
 
     border-radius: 50%;    
-    filter: drop-shadow(2px 4px 6px black);
 }
 
 .skills_category_container {
@@ -41,7 +40,7 @@
     font-size: 1rem;
     font-family: "Overpass Mono", monospace;
     font-weight: 600;
-    color: var(--primary-text);
+    /* color: var(--primary-text); */
 
     padding: 8px;
     margin: 0;
