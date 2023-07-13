@@ -39,9 +39,9 @@
       "github": ""
     },
     {
-      "name": "My Todo App",
-      "description": "A todo app made with React as the frontend and Java with Spring Boot as the backend. It uses a MySQL database to store the data and a REST API to communicate between the frontend and the backend. The frontend is deployed on Netlify, and the backend is deployed on Azure with Docker containers.",
-      "image": "../images/projects/my-todo-app.png",
+      "name": "Todo List",
+      "description": "A robust web application project showcasing my proficiency in React and Vite, focused on a To-Do application. The project incorporates essential features such as login and signup forms, authentication interceptors, and custom hooks.",
+      "image": "../images/projects/todo-web-app.png",
       "technologies": [
         "React",
         "JavaScript",
@@ -54,25 +54,8 @@
         "Docker",
         "Netlify"
       ],
-      "url": "https://my-todo-app-frontend.netlify.app/",
-      "github": "https://github.com/leonardoapd/todo-app-frontend"
-    },
-    {
-      "name": "Security with Spring Boot",
-      "description": "A Spring Boot application that uses Spring Security to authenticate users with an H2 database. The app is deployed on Azure with Docker containers.",
-      "image": "../images/projects/security-with-spring-boot.png",
-      "technologies": [
-        "Java",
-        "Spring Boot",
-        "Spring Security",
-        "Thymeleaf",
-        "JavaScript",
-        "H2",
-        "Azure",
-        "Docker"
-      ],
-      "url": "https://security-with-database.azurewebsites.net/",
-      "github": "https://github.com/leonardoapd/security-with-database"
+      "url": "https://todo-webapp-2023.netlify.app/",
+      "github": "https://github.com/leonardoapd/todo-web-app"
     },
     {
       "name": "Smart Vehicle App",
