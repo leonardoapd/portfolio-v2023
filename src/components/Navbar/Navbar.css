@@ -208,9 +208,3 @@
     }
 }
 
-
-@media (prefers-color-scheme: dark) {
-    .navbar_links li a {
-        color: var(--light-primary-color);
-    }
-}
