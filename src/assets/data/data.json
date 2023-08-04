@@ -17,7 +17,7 @@
     {
       "name": "Authentication App",
       "description": "A full-stack application made with React, .NET Core, and MongoDB. The app allows the user to create an account, login, and logout. The app also uses JWT to authenticate the user and protect the routes.",
-      "image": "../images/projects/authentication-app.png",
+      "image": "../images/projects/auth-app-desktop.png",
       "technologies": [
         "React",
         "JavaScript",
