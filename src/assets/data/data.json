@@ -15,6 +15,24 @@
   ],
   "projects": [
     {
+      "name": "Authentication App",
+      "description": "A full-stack application made with React, .NET Core, and MongoDB. The app allows the user to create an account, login, and logout. The app also uses JWT to authenticate the user and protect the routes.",
+      "image": "../images/projects/authentication-app.png",
+      "technologies": [
+        "React",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        ".NET",
+        "C#",
+        "MongoDB",
+        "Azure",
+        "Netlify"
+      ],
+      "url": "https://auth-dev.netlify.app/",
+      "github": "https://github.com/leonardoapd/authentication-app-master"
+    },
+    {
       "name": "Image Uploader Master",
       "description": "This project showcases my skills in developing a full-stack application using React, .NET Framework, and Firebase Storage. With this app, users can easily upload and manage their images.",
       "image": "../images/projects/image-uploader-page.png",
