@@ -10,41 +10,21 @@
 .skills,
 .testimonials {
     display: grid;
-    padding: 1rem;
-    height: auto;
     align-items: center;
+    justify-items: center;
+    place-items: center;
+    place-content: center;
     gap: 2rem;
-    margin-top: 1rem;
 }
 
+.skills,
 .testimonials {
-    margin-bottom: 4rem;
-}
-
-#skills::before, #projects::before, #testimonials::before {
-    content: "";
-    display: block;
-    height: 120px;
-
-    margin-top: -100px;    
-    visibility: hidden;
+    margin-top: 4rem;
 }
 
 @media only screen and (min-width: 992px) {
-
-    .projects,
-    .skills,
-    .testimonials {
-        padding: 0 calc(10vw + 32px);
-        margin-top: 6rem;
-    }
-
     .skills,
     .testimonials {
         height: 100vh;
-    }
-
-    #skills::before, #projects::before, #testimonials::before {
-        height: 140px;
     }
 }

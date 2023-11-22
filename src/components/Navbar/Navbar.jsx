@@ -75,7 +75,7 @@ export default function Navbar({ toggleTheme, theme }) {
                 {localLinks.map((link, index) => (
                     <li key={index} className={link.toLowerCase() === activeLink ? 'link_selected' : ''}>
                         {/* <div></div> */}
-                        <a href={`#${link.toLowerCase()}`}>{link}</a>
+                        <a href={`#${link.toLowerCase()}`} onClick={handleScroll}>{link}</a>
                     </li>
                 ))}
             </ul>

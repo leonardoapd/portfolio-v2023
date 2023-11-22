@@ -38,7 +38,8 @@
   gap: 8px;
 
   width: 100%;
-  max-width: 380px;
+  height: 100%;
+  /* max-width: 380px; */
   margin: 0 auto;
 
   background-color: var(--light-primary-color);
