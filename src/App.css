@@ -1,5 +1,5 @@
 .section__title {
-  font-family: 'Flamenco', cursive;
+  font-family: 'PT Mono', monospace;
   font-size: 3rem;
   color: var(--primary-color);
   margin-bottom: 1rem;
