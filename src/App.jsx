@@ -5,6 +5,7 @@ import Projects from './containers/Projects/Projects';
 import Skills from './containers/Skills/Skills';
 import Testimonials from './containers/Testimonials/Testimonials';
 import NavigationDots from './components/NavigationDots/NavigationDots';
+import Footer from './components/Footer/Footer';
 
 import './App.css';
 
@@ -32,6 +33,7 @@ function App() {
       <Projects />
       <Skills />
       <Testimonials />
+      <Footer />
       <NavigationDots />
     </div>
   )

@@ -27,7 +27,6 @@ export default function Navbar({ toggleTheme, theme }) {
 	 */
 	const handleNavClick = () => {
 		const currentLink = window.location.hash.slice(1);
-		console.log('currentLink', currentLink);
 		setActiveLink(currentLink);
 	};
 
@@ -47,7 +46,6 @@ export default function Navbar({ toggleTheme, theme }) {
 					sectionTop + sectionHeight - sectionHeight * 0.25
 			) {
 				const currentId = section.attributes.id.value;
-				console.log('currentId', currentId);
 				setActiveLink(currentId);
 			}
 		});
