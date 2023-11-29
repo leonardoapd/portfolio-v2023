@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Junge&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
 :root {
   font-synthesis: none;
@@ -10,7 +11,7 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 
-  --light-color: #F0F0F0;
+  --light-color: #F6F6F6;
   --dark-color: #242424;
   --black-shadow-color: rgba(0, 0, 0, 0.089);
   --red-shadow-color: rgba(255, 0, 0, 0.089);
@@ -36,7 +37,7 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  font-family: 'Darker Grotesque', sans-serif;
+  font-family: 'apercu', sans-serif;
 }
 
 #root {

@@ -1,7 +1,15 @@
-.projects_container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 32px;
+.projects_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 1rem;
+  padding: 8px;
+}
+
+.project_item {
+  list-style: none;
+  height: 100%;
 }
 
 .project-links {
@@ -23,6 +31,7 @@
   text-decoration: none;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 4px;
 
   color: var(--primary-text);
@@ -31,6 +40,8 @@
   
   width: 45%;
   padding: 8px;
+
+  transition: box-shadow 0.2s ease-in-out;
 }
 
 .code-link {
@@ -44,10 +55,33 @@
 .link-icon {
   margin: 0;
   color: var(--primary-text);
+  transition: transform 0.2s ease-in-out;
 }
 
-@media screen and (min-width: 992px) {
+.project-link:hover {
+  box-shadow: 4px 2px 20px rgba(0, 0, 0, .1);
 
+  .link-icon {
+    transform: translateX(4px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projects_list {
+    display: grid;
+    max-width: 1024px;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 4fr));
+    grid-gap: 1rem;
+  }
+
+  .project_item:nth-child(3n + 1) {
+    grid-column: span 2;
+  }
+
+  .project_item:last-child {
+    grid-column: span 2;
+  }
 }
 
 

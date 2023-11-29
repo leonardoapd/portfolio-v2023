@@ -1,7 +1,7 @@
 {
-  "name": "portfolio-v2023",
+  "name": "leonardo-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "homepage": ".",
   "scripts": {

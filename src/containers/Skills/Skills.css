@@ -1,24 +1,60 @@
-.skills_container {
+.skills_list {
     display: grid;
     grid-template-rows: 1fr;
     justify-items: center;
 
     gap: 16px;
     margin: 24px 0;
+    padding: 8px;
 }
 
 .skills_container img {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     object-fit: contain;
 
-    border-radius: 50%;    
+    border-radius: 50%;
 }
 
-.skills_category_container {
+.skills_item {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    gap: 24px;
+
+    border-radius: 12px;
+    background-color: #eceff1;
+    width: 100%;
+    padding: 16px;
+    transition: all 0.3s ease-out;
+
+    .skills_title {
+        font-size: 1.5rem;
+        font-family: "Overpass Mono", monospace;
+        font-weight: 600;
+        color: var(--primary-text);
+
+    }
+
+    .skills_description {
+        font-size: 1rem;
+        color: var(--secondary-text);
+        text-align: center;
+    }
+}
+
+.skills_item:hover {
+    filter: drop-shadow(4px 2px 20px rgba(0, 0, 0, .1));
+    background-color: var(--light-primary-color);
+
+    .technology_item {
+        background-color: #eceff1;
+    }
+
+    .technology_item:hover {
+        filter: drop-shadow(4px 2px 20px rgba(0, 0, 0, .1));
+    }
 }
 
 .skills_list_container {
@@ -48,12 +84,47 @@
     text-align: center;
 }
 
-@media screen and (min-width: 992px) {
-    .skills_container {
-        grid-template-columns: repeat(2, 1fr);
+.skills_sublist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 8px;
+    width: 100%;
+}
+
+.technology_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 8px;
+    background-color: var(--light-primary-color);
+    color: var(--primary-text);
+    padding: 4px;
+    border-radius: 8px;
+    width: 48%;
+
+    transition: all 0.3s ease-out;
+}
+
+@media screen and (min-width: 768px) {
+
+    .skills_list {
+        display: grid;
+        max-width: 1024px;
+        margin: 0 auto;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        grid-gap: 1rem;
+    }
+
+    .skills_item:first-child {
+        grid-column: span 2;
+
     }
 }
 
-@media screen and (orientation: landscape) {
-   
-}  
+@media screen and (orientation: landscape) {}

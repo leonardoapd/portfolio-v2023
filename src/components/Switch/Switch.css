@@ -29,6 +29,7 @@
     background: #fff;
     box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
     font-size: 14px;
+    text-align: center;
 }
 
 .react-switch-checkbox:checked+.react-switch-label .react-switch-button {
@@ -37,5 +38,5 @@
 }
 
 .react-switch-label:active .react-switch-button {
-    width: 40px;
+    width: 44px;
 }

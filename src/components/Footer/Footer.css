@@ -1,0 +1,50 @@
+/* Estilos generales del footer */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-top: 1px solid #dee2e6;
+}
+
+/* Estilos del primer bloque dentro del footer */
+.footer__block {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    padding: 0 3rem;
+}
+
+.footer__link {
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+    color: #6c757d;
+    text-decoration: none;
+    line-height: 1;
+}
+
+/* Estilos del segundo span dentro del primer bloque */
+.footer__text {
+    color: #6c757d;
+}
+
+/* Estilos de la lista no ordenada dentro del footer */
+.footer__nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 0;
+    list-style: none;
+    gap: 1rem;
+}
+
+/* Estilos de los elementos de la lista dentro de la lista no ordenada */
+.footer__item {
+    /* margin-left: 0.75rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
