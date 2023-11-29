@@ -42,9 +42,15 @@
   /* max-width: 380px; */
   margin: 0 auto;
 
-  background-color: var(--light-primary-color);
+  background-color: #eceff1;
   border-radius: 12px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-out;
+}
+
+.card:hover {
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+  background-color: var(--light-primary-color);
 }
 
 .card-content {
@@ -66,7 +72,7 @@
 
 .card-description {
   font-size: 1rem;
-  font-family: "Junge", serif;
+  /* font-family: "Junge", serif; */
   color: var(--secondary-text);
 
   padding: 8px;
@@ -102,7 +108,7 @@
 
 .light-theme .shadow {
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
-  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+  /* filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2)); */
 }
 
 .light-theme .navdot_background {

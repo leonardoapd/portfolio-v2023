@@ -4,15 +4,12 @@
   justify-content: center;
   align-items: center;
   grid-gap: 1rem;
+  padding: 8px;
 }
 
 .project_item {
   list-style: none;
   height: 100%;
-}
-
-.project_item:nth-child(3n + 1) {
-  grid-column: span 2;
 }
 
 .project-links {
@@ -76,6 +73,14 @@
     margin: 0 auto;
     grid-template-columns: repeat(auto-fill, minmax(260px, 4fr));
     grid-gap: 1rem;
+  }
+
+  .project_item:nth-child(3n + 1) {
+    grid-column: span 2;
+  }
+
+  .project_item:last-child {
+    grid-column: span 2;
   }
 }
 
