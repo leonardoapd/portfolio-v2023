@@ -117,25 +117,25 @@
 	"testimonials": [
 		{
 			"name": "Wilder Mancera",
-			"company": "Aloe Software S.R.L",
+			"company": "FullStack Developer at BACC",
 			"comment": "Leonardo is a very responsible and dedicated person. He is a great team player and is always willing to help others. Leonardo is a skilled developer who continuously seeks ways to improve his skills.",
 			"image": "../images/testimonials/wilder-mancera.jpg"
 		},
 		{
 			"name": "Wilmer Triana",
-			"company": "Segunda Oportunidad",
+			"company": "Software Developer Intern at Sofka",
 			"comment": "Leonardo is an excellent professional. He is technically committed and has a great attitude towards work. Leonardo is a team player and excels in problem-solving.",
 			"image": "../images/testimonials/wilmer-triana.jpg"
 		},
 		{
 			"name": "Marco Bedon",
-			"company": "Colegio Jefferson",
+			"company": "Robotics and Programming Instructor at Colegio Jefferson",
 			"comment": "Leonardo is a brilliant, imaginative, and highly creative developer who actively shares his knowledge with others. His talent and passion for technology are evident in his work.",
 			"image": "../images/testimonials/marco-bedon.jpg"
 		},
 		{
 			"name": "Alexandra Vargas",
-			"company": "Keralty",
+			"company": "TI Medical Advisor at Colsanitas",
 			"comment": "I worked with Leonardo on an Angular project for 4 months, and he proved to be an excellent developer. Leonardo possesses extensive knowledge and excellent communication skills, making him a valuable asset to any team.",
 			"image": "../images/testimonials/alexandra-vargas.jpg"
 		}

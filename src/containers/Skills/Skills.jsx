@@ -2,16 +2,10 @@
 import AppWrapper from '../../wrapper/AppWrapper';
 import SkillsInformation from '../../assets/data/data.json';
 import './Skills.css';
-import { useEffect } from 'react';
 import images  from '../../constants/images';
 
 function Skills() {
 	const skills = SkillsInformation.skills;
-
-	useEffect(() => {
-		console.log(skills);
-		console.log(images);
-	}, [skills]);
 
 	return (
 		<>

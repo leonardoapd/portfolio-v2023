@@ -34,7 +34,7 @@
         font-family: "Overpass Mono", monospace;
         font-weight: 600;
         color: var(--primary-text);
-    
+
     }
 
     .skills_description {
@@ -45,7 +45,7 @@
 }
 
 .skills_item:hover {
-    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(4px 2px 20px rgba(0, 0, 0, .1));
     background-color: var(--light-primary-color);
 
     .technology_item {
@@ -53,7 +53,7 @@
     }
 
     .technology_item:hover {
-        filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+        filter: drop-shadow(4px 2px 20px rgba(0, 0, 0, .1));
     }
 }
 
@@ -103,6 +103,7 @@
 
     gap: 8px;
     background-color: var(--light-primary-color);
+    color: var(--primary-text);
     padding: 4px;
     border-radius: 8px;
     width: 48%;
@@ -116,7 +117,7 @@
         display: grid;
         max-width: 1024px;
         margin: 0 auto;
-        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
         grid-gap: 1rem;
     }
 

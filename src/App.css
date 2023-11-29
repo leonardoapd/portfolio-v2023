@@ -49,7 +49,7 @@
 
 .card:hover {
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
-  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(4px 2px 20px rgba(0, 0, 0, .1));
   background-color: var(--light-primary-color);
 }
 
@@ -108,7 +108,7 @@
 
 .light-theme .shadow {
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
-  /* filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2)); */
+  /* filter: drop-shadow(4px 2px 20px rgba(0, 0, 0, .1)); */
 }
 
 .light-theme .navdot_background {
