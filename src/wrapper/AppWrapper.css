@@ -17,14 +17,15 @@
     gap: 2rem;
 }
 
+.projects,
 .skills,
 .testimonials {
-    margin-top: 4rem;
+    padding-top: 6rem;
 }
 
 @media only screen and (min-width: 992px) {
     .skills,
     .testimonials {
-        height: 100vh;
+        /* height: 100vh; */
     }
 }

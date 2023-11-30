@@ -82,7 +82,7 @@
 
 @media screen and (min-width: 768px) {
     .testimonials {
-        height: 100vh;
+        /* height: 100vh; */
     }
 
     .testimonials_list {
