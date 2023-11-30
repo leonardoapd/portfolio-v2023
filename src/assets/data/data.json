@@ -76,12 +76,12 @@
 			"github": "https://github.com/leonardoapd/image-uploader-master"
 		},
 		{
-			"name": "Movie Ticket Form",
-			"description": "A form made with HTML, CSS, and Vanilla JavaScript that allows the user to select a movie, the number of tickets, and the showtime. The form also calculates the total price of the tickets and stores the data in the local storage.",
+			"name": "Movie Booking App",
+			"description": "This project is designed to facilitate the booking of movie tickets by providing users with an intuitive web interface. A form made with HTML, CSS, and Vanilla JavaScript that allows the user to select a movie, the number of tickets, and the showtime. The form also calculates the total price of the tickets and stores the data in the local storage.",
 			"image": "../images/projects/movie-ticket-form.png",
 			"technologies": ["HTML", "CSS", "JavaScript"],
-			"url": "http://perdomod.dev.fast.sheridanc.on.ca/web_applications/assignment_1/pages/",
-			"github": ""
+			"url": "https://movie-booking-webapp.netlify.app/",
+			"github": "https://github.com/leonardoapd/movie-ticket-booking"
 		},
 		{
 			"name": "Smart Vehicle App",
