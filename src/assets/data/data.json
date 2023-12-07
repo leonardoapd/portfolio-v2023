@@ -41,9 +41,9 @@
 			"github": ""
 		},
 		{
-			"name": "Todo List",
+			"name": "Tasky",
 			"description": "A robust web application project showcasing my proficiency in React and Vite, focused on a To-Do application. The project incorporates essential features such as login and signup forms, authentication interceptors, and custom hooks.",
-			"image": "../images/projects/todo-web-app.png",
+			"image": "../images/projects/tasky.png",
 			"technologies": [
 				"React",
 				"JavaScript",
